@@ -7,15 +7,20 @@
 
    Tables Style Sheet
    Author: Samuel Harris
-   Date: 1//21/19  
+   Date: 11/21/19  
 
    Filename:         mi_tables.css
 
 */
 
 /* Table Styles */
-
-
+table{
+   background: liner-gradient(rgb(190,215,255),black);
+   border: 5px solid grey;
+}
+table.pricing th, table.pricing td{
+   border: 
+}
 
 /* Column Styles */
 
