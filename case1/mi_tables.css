@@ -15,21 +15,46 @@
 
 /* Table Styles */
 table{
-   background: liner-gradient(rgb(190,215,255),black);
+   background: linear-gradient(rgb(190,215,255),black);
    border: 5px solid grey;
 }
 table.pricing th, table.pricing td{
-   border: 
+   border: 3px solid grey;
+   line-height: 1.4em;
+   padding: 8px;
+}
+th{
+   background: black;
+   color: rgb(130,210,255);
+   font-weight: normal;
+}
+td{
+   color: white;
+   font-size: 0.9em;
+   vertical-align: top;
 }
 
 /* Column Styles */
-
-
+col#firstCol{
+   column-width: 24%;
+}
+col#dataCols{
+   column-width: 19%;
+}
 
 /* Table Header Styles */
+table header row group{
+   height: 60px
+}
 
+th first-table-row, first-heading-column{
+   font-size: 2em;
+}
 
-
+th :nth-table-row, :nth-heading-column{
+   background: transparent;
+   color: black;
+}
 
 
 
